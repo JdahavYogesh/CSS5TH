@@ -1,0 +1,157 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    }
+    a{
+        font-weight: bold;
+        font-size: 20px;
+    }
+.main{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(15, 116, 15);
+    display: inline-block;
+    margin:20px;
+    animation-name: yogesh;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+
+}
+
+@keyframes yogesh{
+
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+.main1{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(188, 62, 167);
+    display: inline-block;
+    margin:20px;
+    animation-name: jadhav;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+
+}
+
+@keyframes jadhav{
+
+    from{
+        transform: skewy(20deg);
+    }
+    to{
+        transform: skewy(-20deg);
+    }
+}
+
+.main2{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(59, 13, 144);
+    display: inline-block;
+    margin:20px;
+    animation-name:block3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    
+
+}
+
+@keyframes block3{
+
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.main31{
+    height: 100px ;
+    width: 100px;
+    border: 2px solid brown;
+    background-color: rgb(139, 239, 46);
+    display: inline-block;
+    margin:20px;
+    animation-name:block4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+    
+
+}
+
+@keyframes block4{
+
+    from{
+        transform: scaley(.5);
+    }
+    to{
+        transform:scaleY(1);
+    }
+}
+
+.main32{
+    height: 100px ;
+    width: 100px;
+    border: 2px solid brown;
+    background-color: rgb(240, 150, 23);
+    display: inline-block;
+    margin:20px;
+    animation-name:block5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+    
+
+}
+
+@keyframes block5{
+
+    from{
+        transform: scalex(.5);
+    }
+    to{
+        transform:rotate(1);
+    }
+}
+
+.main33{
+    height: 100px ;
+    width: 100px;
+    border: 2px solid brown;
+    background-color: rgb(203, 30, 59);
+    display: inline-block;
+    margin:20px;
+    animation-name:block6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+    
+
+}
+
+@keyframes block6{
+
+    from{
+        transform: rotatez(50deg);
+    }
+    to{
+        transform:rotatez(-50deg);
+    }
+}

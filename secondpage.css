@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(252, 252, 154);
+}
+h2{
+    text-align: center;
+}
+a{
+    color: red;
+    right: 50%;
+    left: 50%;
+    position: relative;
+}
+
+.b1{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+    
+}
+ .b1:hover{
+    width: 300px;
+}
+
+.b2{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b2:hover{
+    width: 200px;
+    height: 200px;
+}
+
+.b3{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b3:hover{
+    width: 300px;
+}
+
+.b4{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b4:hover{
+    width: 300px;
+}
+
+.b5{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b5:hover{
+    width: 300px;
+}
+
+.b6{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b6:hover{
+    width: 300px;
+}
+
+.b7{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(155, 237, 32);
+    transition-duration: 3s;
+}
+ .b7:hover{
+    width: 300px;
+}
+.center{
+    position: relative;
+    right: 50%;
+    left: 50%;
+}
+
+
+
+
+
+

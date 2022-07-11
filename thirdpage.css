@@ -1,0 +1,143 @@
+body{
+    background-image: url(./sky.jpg);
+}
+h2{
+text-align: center; 
+margin-top: 0;
+font-size: 30px;
+}
+.happy{
+    background-color: orange;
+}
+.ind{
+    background-color: white;
+}
+.day{
+    background-color: green;
+}
+
+#road{ 
+  width: 2900px;
+  height: 100px;
+  position:absolute;
+  bottom: 0;
+  animation-name: road;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  transition-timing-function: cubic-bezier(0.06, 0.16, 0.96, 1.12);
+
+}
+
+@keyframes road{
+
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-800px);
+    }
+}
+
+#wheel{
+    width: auto;
+  height: 80px;
+  position:absolute;
+  bottom: 100px;
+  left: 290px;
+  animation-name: wheel1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+
+@keyframes wheel1{
+
+    from{
+        transform: rotatez(-3600deg);
+    }
+    to{
+        transform: rotatez(0deg);
+    }
+
+}
+
+#wheel2{
+    width: auto;
+  height: 80px;
+  position:absolute;
+  bottom: 100px;
+  left: 535px;
+  animation-name: wheel2;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+
+@keyframes wheel2{
+
+    from{
+        transform: rotatez(-3600deg);
+    }
+    to{
+        transform: rotatez(0deg);
+    }
+
+}
+
+#car{
+    position: fixed;
+    top: 289px;
+    left: 260px;
+    width: 400px;
+    height: 160px;
+}
+#flag{
+    position: fixed;
+    top: 50px;
+    left: 600px;
+    width: 600px;
+    height: 600px;
+
+}
+#sun{
+    position: absolute;
+    width: 60px;
+    right: 0;
+    animation-name: sun;
+    animation-duration: 25s;
+    animation-iteration-count:infinite;
+
+    
+}
+@keyframes sun{
+
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translate(-400px);
+    }
+}
+#city{
+    position: absolute;
+    top: 280px;
+    height: 200px;
+    width: 2000px;
+    animation-name: city;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transition-timing-function: cubic-bezier(0.52, 0.52, 0.9, 0.92);
+
+
+}
+@keyframes city{
+
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-300px);
+    }
+}
